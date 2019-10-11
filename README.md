@@ -1,2 +1,2 @@
 # HTML5-Travel-Page
-Created a travel HTML page.
+Created a travel app with HTML5 and CSS.
