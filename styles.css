@@ -1,0 +1,32 @@
+
+  .red-text {
+    color: rgb(31, 31, 247);
+  }
+
+  h2 {
+    font-family: Lobster;
+  }
+
+  p {
+    font-size: 16px;
+    font-family: monospace;
+  }
+
+  .larger-image {
+      width: 1000px;
+  }
+
+  .thick-border {
+    border-color: rgb(65, 67, 235);
+    border-width: 10px;
+    border-style: solid;
+    border-radius: 10px; /*rounds the border using pixels or %*/
+  }
+
+  .div-background {
+      background-color: rgb(211, 247, 217);
+  }
+
+  #travel-form { /*id's can not be reused*/
+      background-color:  rgb(196, 250, 205);
+  }

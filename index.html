@@ -1,16 +1,20 @@
+
 <!DOCTYPE html>
 <html>
 <head>
-<h2>Travel</h2>
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
+        <h2 class="red-text">Travel</h2>
 <main>
-  <p>Click here to view more <a href="https://www.google.com/search?sxsrf=ACYBGNSD7FupNV2RB8ObjwJi3vrF36UsLQ:1570733185891&q=travel+photos&tbm=isch&source=univ&sxsrf=ACYBGNSD7FupNV2RB8ObjwJi3vrF36UsLQ:1570733185891&sa=X&ved=2ahUKEwjhwdOMrZLlAhUPUK0KHWUBCBIQsAR6BAgFEAE&biw=1440&bih=789">travel photos</a>.</p>
+  <p class="red-text">Click here to view more <a href="https://www.google.com/search?sxsrf=ACYBGNSD7FupNV2RB8ObjwJi3vrF36UsLQ:1570733185891&q=travel+photos&tbm=isch&source=univ&sxsrf=ACYBGNSD7FupNV2RB8ObjwJi3vrF36UsLQ:1570733185891&sa=X&ved=2ahUKEwjhwdOMrZLlAhUPUK0KHWUBCBIQsAR6BAgFEAE&biw=1440&bih=789">travel photos</a>.</p>
   
-  <a href="#"><img src="https://cdn.pixabay.com/photo/2017/01/20/00/30/maldives-1993704__340.jpg" alt="A cute orange cat lying on its back."></a>
+  <a href="#"><img class="larger-image thick-border" src="https://cdn.pixabay.com/photo/2017/01/20/00/30/maldives-1993704__340.jpg" alt="A cute orange cat lying on its back."></a>
   
-<div>
+
+<div class="div-background">
   <p>Things to do while traveling:</p>
   <ul>
     <li>Take photos</li>
@@ -25,7 +29,7 @@
   </ol>
 </div>
 <p>Which do you prefer?</p>
-  <form action="/submit-cat-photo">
+  <form action="/submit-cat-photo" id="travel-form">
     <label><input type="radio" name="indoor-outdoor" checked> Indoor</label>
     <label><input type="radio" name="indoor-outdoor"> Outdoor</label><br>
     <label><input type="checkbox" name="personality" checked> Ocean</label>
